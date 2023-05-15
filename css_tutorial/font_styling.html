@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Font Styling in CSS</title>
+
+	<style type="text/css">
+		#t {
+			background: rgb(224, 224, 224);
+			text-align: center;
+			width: 100px;
+		}
+
+		#a {
+			background: rgb(139, 169, 221);
+			text-align:center;
+		}
+		
+		@font-face {
+			font-family: mycoolfont;
+			src: url('times-new-roman-cufonfonts.zip')
+
+		}
+
+
+		#tnr {
+			background: rgb(247, 202, 173);
+			width: 130px;
+			height: 10px;
+		}
+
+		@font-face {
+			font-family: mycoolfont;
+			src: url('times-new-roman-cufonfonts.zip')
+		}
+
+		#a {
+			background: rgb(143, 169, 218);
+			width: 130px;
+			height: 10px;
+		}
+
+		@font-face {
+			font-family: mycoolfont;
+			src: url('Algerian Regular.ttf')
+		}
+
+    	#c_m {
+			background: rgb(225, 225, 1);
+			width: 130px;
+			height: 10px;
+		}
+
+		@font-face {
+			font-family: mycoolfont;
+			src: url('Cambria-Font-For-Linux.ttf')
+
+		}
+
+		#csm {
+			background: rgb(240, 142, 50);
+			width: 130px;
+			height: 10px;
+			text-align:center;
+		}
+
+		@font-face {
+			font-family: mycoolfont;
+			src: url('comicz.ttf')
+		}
+
+		#g {
+			background: rgb(167, 208, 140);
+			width: 100px;
+			text-align:center;
+		}
+
+		@font-face {
+			font-family: mycoolfont;
+			src: url('Georgia Regular font.ttf')
+		}
+
+		#tm {
+			background: rgb(254, 0, 2);
+			width: 100px;
+			text-align:center;
+		}
+
+		@font-face {
+			font-family: mycoolfont;
+			src: url('times-new-roman-cufonfonts.zip')
+		}
+	</style>
+</head>
+<body>
+
+	<table style="border-collapse: collapse;" cellpadding="20px" border="2px" cellspacing="10px"  >
+		<thead>
+
+		<th id="t" align="center" colspan="3">Poppins</th>
+	    </thead>
+
+		<tr>
+			<td id="tnr">Times New Roman</td>
+			<td id="a">ALGERIAN</td>
+			<td id="c_m">Cambria Math</td>
+
+		</tr>
+
+		<tr>
+			<td id="csm">Comic Sans MS</td>
+			<td id="g">Georgia</td>
+			<td id="tm">Trebuchet MS</td>
+			
+		</tr>
+		</table>
+
+</body>
+</html>
