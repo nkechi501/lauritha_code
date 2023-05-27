@@ -4,20 +4,28 @@
 	<title>Get Started</title>
 
 	<style type="text/css">
-		.form {
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background: rgb(240,240,240);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			font-family: sans-serif;
+		}
+			
+
+		form {
 			background: white;
-			height: 550px;
 			width: 350px;
-			margin-top: 100px;
+			padding: 10px;
+			border-radius: 5px; 
 		}
 
-		.up {
-			background: rgb(260,222,208);
-			border: 10px;
-			padding: 10px; 
-		}
-
-		.gt {
+		.form_label{
 			color: rgb(131,110,65);
 		}
 
@@ -59,8 +67,6 @@
 			color: white;
 			justify-content: center;
 			background: rgb(64,0,128);
-			width: 350px;
-			height: 50px;
 			margin-top: 8px;
 		}
 
@@ -77,36 +83,34 @@
 	</style>
 </head>
 <body>
-	<form class="form">
-	<div class="up">
-	    <h1 class="gt"> Get Started</h1> 
-
-	    <h3 class="let">let us create your account</h3>
-
+	<form>
 	    <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?cs=srgb&dl=pexels-chevanon-photography-312418.jpg&fm=jpg" width="70px;" height="70px;">
 	</div>
 
-	<div>
-		<label id="fn">Full name</label>
-
-		<h3 class="ap">Alexander Parkinson</h3>
+	<div class="form_section">
+		<div class="form_label">full name</div>
+		<input type="" name="" class="form_input">
 	</div>
 
-	<div>
-		<label class="e">Email</label>
-		<h3 class="vl">vlockn@gmail.com</h3>
+	<div class="form_section">
+		<div class="form_label">Email</div>
+		<input type="" name="" class="form_input">
 	</div>
 
-	<div>
-		<label class="ps">password</label>
+	<div class="form_section">
+		<div class="form_label">Password</div>
+		<input type="" name="" class="form_input">
 	</div>
+	    <div>
+	      <button class="gtd">Get Started</button>
+	    </div>
 
-	<button class="gtd">Get Started</button>
+	    <div class="form_footer">
+	      By siging up you agreein to our <a href="">Terms and Conditions</a>
+	    </div>
 
-	<p class="bs">By signing up you are agreeing to our</p>
 
-	<h5 class="tc">Terms and Conditions</h5>
-
+	    
 	</form>
 
 </body>
